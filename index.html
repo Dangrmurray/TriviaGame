@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oakland Trivia Game</title>
+
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Satisfy|Sedgwick+Ave+Display" rel="stylesheet">
+</head>
+<body>
+	
+	<!-- The Begining Menu -->
+	<div id="beginGameCont">
+
+		<h1 id="title">Oakland Trivia Game</h1>
+
+		<button id="begin">Begin Game</button>
+		
+	</div>
+
+	<!-- The question sheet -->
+	<div id="questionCont">
+
+		<h1 id="title">Oakland Trivia Game</h1>
+
+		<h1 id="timer">Time Remaining: <span id="timeNum">120 Seconds</span></h1>
+
+		<h1>1. When was the city of Oakland, CA founded?</h1>
+			<input type="radio" name="q1" value="May 4th, 1852">May 4th, 1852
+			<input type="radio" name="q1" value="May 4th, 1776">May 4th, 1776
+			<input type="radio" name="q1" value="May 4th, 1911">May 4th, 1911
+			<input type="radio" name="q1" value="May 4th, 1833">May 4th, 1833
+
+		<h1>2. How many parks does the city of Oaklnd have?</h1>
+			<input type="radio" name="q2" value="27">27
+			<input type="radio" name="q2" value="33">33
+			<input type="radio" name="q2" value="62">62
+			<input type="radio" name="q2" value="80+">80+
+
+		<h1>3. Which of these famous actors is from Oakland?</h1>
+			<input type="radio" name="q3" value="Tom Hanks">Tom Hanks
+			<input type="radio" name="q3" value="Clint Eastwood">Clint Eastwood
+			<input type="radio" name="q3" value="Mark Hamill">Mark Hamill
+			<input type="radio" name="q3" value="All of them">All of them
+
+
+		<h1>4. What Oakland landmark was Walt Disney's inspiration for Disneyland?</h1>
+			<input type="radio" name="q4" value="The Gardens at Lake Merritt">The Gardens at Lake Merritt
+			<input type="radio" name="q4" value="Fairyland">Fairyland
+			<input type="radio" name="q4" value="Idora Park">Idora Park
+			<input type="radio" name="q4" value="Redwood Park">Redwood Park
+
+		<h1>5. Which martial arts master began his training, and opened his first studio, in Oakland?</h1>
+			<input type="radio" name="q5" value="Jackie Chan">Jackie Chan
+			<input type="radio" name="q5" value="Tony Jaa">Tony Jaa
+			<input type="radio" name="q5" value="Bruce Lee">Bruce Lee
+			<input type="radio" name="q5" value="Jet Li">Jet Li
+
+
+		<h1>6. What famous oakland rapper got his name when he was a child as a bat boy for the Oakland A's?</h1>
+			<input type="radio" name="q6" value="Too $hort">Too $hort
+			<input type="radio" name="q6" value="Tupac Shakur">Tupac Shakur
+			<input type="radio" name="q6" value="Mac Dre">Mac Dre
+			<input type="radio" name="q6" value="MC Hammer">MC Hammer
+
+		<h1>7. Which popular flavor of ice cream was invented in Oakland?</h1>
+			<input type="radio" name="q7" value="Rocky Road">Rocky Road
+			<input type="radio" name="q7" value="Americone Dream">Americone Dream
+			<input type="radio" name="q7" value="Butter Pecan">Butter Pecan
+			<input type="radio" name="q7" value="Mint Chocolate Chip">Mint Chocolate Chip
+
+		<h1>8. What other frozen treat was invented in Oakland?</h1>
+			<input type="radio" name="q8" value="The Popsicle">The Popsicle
+			<input type="radio" name="q8" value="Its-It">Its-It
+			<input type="radio" name="q8" value="Frozen Yogurt">Frozen Yogurt
+			<input type="radio" name="q8" value="Ice Cream Cake">Ice Cream Cake
+
+		<h1>9. What popular drink was invented in Oakland?</h1>
+			<input type="radio" name="q9" value="Long Island Iced Tea">Long Island Iced Tea
+			<input type="radio" name="q9" value="Greyhound">Greyhound
+			<input type="radio" name="q9" value="Tom Collins">Tom Collins
+			<input type="radio" name="q9" value="Mai Tai">Mai Tai
+
+		<h1>10. Which Oakland Community College was the birthplace of the Black Panther Party?</h1>
+			<input type="radio" name="q10" value="College of Alameda">College of Alameda
+			<input type="radio" name="q10" value="Berekley City College">Berekley City College
+			<input type="radio" name="q10" value="Laney College">Laney College
+			<input type="radio" name="q10" value="Merritt College">Merritt College
+
+		<h1>11. What was America's first wildlife sanctuary?</h1>
+			<input type="radio" name="q11" value="Yosemite">Yosemite
+			<input type="radio" name="q11" value="Lake Merritt">Lake Merritt
+			<input type="radio" name="q11" value="Carlsbad Caverns">Carlsbad Caverns
+			<input type="radio" name="q11" value="Yellowstone">Yellowstone
+
+		<h1>12. What is the most ethnically diverse city in the United States?</h1>
+			<input type="radio" name="q12" value="New York">New York
+			<input type="radio" name="q12" value="Los Angles">Los Angles
+			<input type="radio" name="q12" value="Chicago">Chicago
+			<input type="radio" name="q12" value="Oakland">Oakland
+
+			<br>
+
+		<button id="submit">Submit</button>
+
+		
+	</div>
+
+
+	<div id="results">
+
+		<h1 id="title">Oakland Trivia Game</h1>
+
+		<h1>Correct: <span id="correct">0</span></h1>
+		<h1>Wrong: <span id="wrong">0</span></h1>
+		<h1>Unanswered: <span id="unanswered">0</span></h1>
+
+
+
+	</div>
+	
+
+
+<!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>

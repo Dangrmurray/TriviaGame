@@ -1,0 +1,88 @@
+#beginGameCont{
+	background-color: green;
+	opacity: .75;
+	width: 800px;
+	text-align: center;
+	margin: 50px auto;
+	padding:60px 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+
+	border-radius: 15px;
+
+
+
+
+}
+
+#begin{
+	padding: 20px 80px;
+	opacity: 1;
+	background-color: gold;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 15px;
+	font-family: 'Satisfy', cursive;
+}
+
+#title{
+	opacity: 1;
+	color: gold;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: 'Sedgwick Ave Display', cursive;
+
+}
+h1{
+
+	font-family: 'Fredericka the Great', cursive;
+
+}
+
+body{
+	background-image: url("../images/oaklandskyline.jpg");
+	background-size: 100%;
+}
+
+#questionCont{
+	background-color: green;
+	opacity: .75;
+	width: 800px;
+	text-align: center;
+	margin: 50px auto;
+	padding:60px 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 15px;
+
+}
+
+#submit{
+	padding: 20px 80px;
+	margin-top: 40px;
+	background-color: gold;
+	font-size: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 15px;
+	font-family: 'Satisfy', cursive;
+}
+
+#results{
+	background-color: green;
+	opacity: .75;
+	width: 800px;
+	text-align: center;
+	margin: 50px auto;
+	padding:60px 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 15px;
+
+}
